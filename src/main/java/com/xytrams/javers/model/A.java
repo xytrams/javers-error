@@ -16,5 +16,6 @@ public class A {
 	private final B b;
 	private final C c;
 	private final Map<String, List<E>> map;
+//	private final F map;
 
 }

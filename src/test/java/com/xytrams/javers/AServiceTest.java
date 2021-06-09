@@ -19,6 +19,7 @@ import com.xytrams.javers.model.B;
 import com.xytrams.javers.model.C;
 import com.xytrams.javers.model.D;
 import com.xytrams.javers.model.E;
+import com.xytrams.javers.model.F;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -57,6 +58,7 @@ class AServiceTest {
 		Map<String, List<E>> map = new HashMap<>();
 		map.put("key1", asList(new E("p1", asList("teacher", "director")), new E("p3", asList("manager", "director"))));
 		map.put("key2", asList(new E("p2", asList("student", "pupil"))));
+		F f = new F(map);
 		
 		return new A(b, c, map);
 	}

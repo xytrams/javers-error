@@ -7,7 +7,7 @@ import org.javers.core.metamodel.object.CdoSnapshot;
 import org.javers.repository.jql.QueryBuilder;
 import org.springframework.stereotype.Service;
 
-import com.lendico.kycservice.model.A;
+import com.xytrams.javers.model.A;
 
 import lombok.RequiredArgsConstructor;
 
